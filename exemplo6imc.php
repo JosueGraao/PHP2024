@@ -9,6 +9,5 @@ function calcular($peso,$altura){
 
 $imc =  calcular($peso,$altura);
 
-echo "Olá, $nome, o seu imc é $imc";
-
+printf("Olá, $nome. O seu IMC é %.2f", $imc);
 ?>
